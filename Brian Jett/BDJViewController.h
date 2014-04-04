@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BDJViewController : UIViewController
+@interface BDJViewController : UIViewController <UIPageViewControllerDataSource>
+
+@property (strong, nonatomic) UIPageViewController *pageViewController;
+@property (strong, nonatomic) NSArray *viewControllers;
+@property (strong, nonatomic) NSArray *viewControllers1;
 
 @end

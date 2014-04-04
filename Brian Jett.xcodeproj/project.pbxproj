@@ -21,6 +21,28 @@
 		50F78D6518EF01CA00E44AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4718EF01CA00E44AE8 /* UIKit.framework */; };
 		50F78D6D18EF01CA00E44AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D6B18EF01CA00E44AE8 /* InfoPlist.strings */; };
 		50F78D6F18EF01CA00E44AE8 /* Brian_JettTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D6E18EF01CA00E44AE8 /* Brian_JettTests.m */; };
+		50F78D7A18EF028300E44AE8 /* BDJMilestoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D7918EF028300E44AE8 /* BDJMilestoneViewController.m */; };
+		50F78D7F18EF496000E44AE8 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D7D18EF496000E44AE8 /* start.png */; };
+		50F78D8018EF496000E44AE8 /* start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D7E18EF496000E44AE8 /* start@2x.png */; };
+		50F78D8218EF4A2900E44AE8 /* indianapolis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D8118EF4A2900E44AE8 /* indianapolis@2x.png */; };
+		50F78D8518EF50AD00E44AE8 /* BDJAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D8418EF50AD00E44AE8 /* BDJAboutMeViewController.m */; };
+		50F78D8718EF50C000E44AE8 /* me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D8618EF50C000E44AE8 /* me@2x.png */; };
+		50F78D8918EF514D00E44AE8 /* indianapolis-dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D8818EF514D00E44AE8 /* indianapolis-dark@2x.png */; };
+		50F78D8B18EF56AD00E44AE8 /* code@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D8A18EF56AD00E44AE8 /* code@2x.png */; };
+		50F78D8D18EF57B200E44AE8 /* blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D8C18EF57B200E44AE8 /* blue@2x.png */; };
+		50F78D9018EF583200E44AE8 /* BDJGenericContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D8F18EF583200E44AE8 /* BDJGenericContentViewController.m */; };
+		50F78D9418EF5C6700E44AE8 /* timeline-end@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D9118EF5C6700E44AE8 /* timeline-end@2x.png */; };
+		50F78D9518EF5C6700E44AE8 /* timeline-first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D9218EF5C6700E44AE8 /* timeline-first@2x.png */; };
+		50F78D9618EF5C6700E44AE8 /* timeline-middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D9318EF5C6700E44AE8 /* timeline-middle@2x.png */; };
+		50F78D9818EF649A00E44AE8 /* iu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D9718EF649A00E44AE8 /* iu@2x.png */; };
+		50F78D9A18EF650000E44AE8 /* education@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D9918EF650000E44AE8 /* education@2x.png */; };
+		50F78D9C18EF675000E44AE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D9B18EF675000E44AE8 /* MapKit.framework */; };
+		50F78D9F18EF677700E44AE8 /* BDJEducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D9E18EF677700E44AE8 /* BDJEducationViewController.m */; };
+		50F78DA118EF6D5300E44AE8 /* iu-dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DA018EF6D5300E44AE8 /* iu-dark@2x.png */; };
+		50F78DA318EF6E4500E44AE8 /* work@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DA218EF6E4500E44AE8 /* work@2x.png */; };
+		50F78DA718EF6FC100E44AE8 /* green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DA418EF6FC100E44AE8 /* green@2x.png */; };
+		50F78DA818EF6FC100E44AE8 /* timeline-end-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DA518EF6FC100E44AE8 /* timeline-end-green@2x.png */; };
+		50F78DA918EF6FC100E44AE8 /* timeline-start-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DA618EF6FC100E44AE8 /* timeline-start-green@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +75,32 @@
 		50F78D6A18EF01CA00E44AE8 /* Brian JettTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brian JettTests-Info.plist"; sourceTree = "<group>"; };
 		50F78D6C18EF01CA00E44AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50F78D6E18EF01CA00E44AE8 /* Brian_JettTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brian_JettTests.m; sourceTree = "<group>"; };
+		50F78D7818EF028300E44AE8 /* BDJMilestoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJMilestoneViewController.h; sourceTree = "<group>"; };
+		50F78D7918EF028300E44AE8 /* BDJMilestoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJMilestoneViewController.m; sourceTree = "<group>"; };
+		50F78D7D18EF496000E44AE8 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		50F78D7E18EF496000E44AE8 /* start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start@2x.png"; sourceTree = "<group>"; };
+		50F78D8118EF4A2900E44AE8 /* indianapolis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indianapolis@2x.png"; sourceTree = "<group>"; };
+		50F78D8318EF50AD00E44AE8 /* BDJAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJAboutMeViewController.h; sourceTree = "<group>"; };
+		50F78D8418EF50AD00E44AE8 /* BDJAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJAboutMeViewController.m; sourceTree = "<group>"; };
+		50F78D8618EF50C000E44AE8 /* me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@2x.png"; sourceTree = "<group>"; };
+		50F78D8818EF514D00E44AE8 /* indianapolis-dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indianapolis-dark@2x.png"; sourceTree = "<group>"; };
+		50F78D8A18EF56AD00E44AE8 /* code@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "code@2x.png"; sourceTree = "<group>"; };
+		50F78D8C18EF57B200E44AE8 /* blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@2x.png"; sourceTree = "<group>"; };
+		50F78D8E18EF583200E44AE8 /* BDJGenericContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJGenericContentViewController.h; sourceTree = "<group>"; };
+		50F78D8F18EF583200E44AE8 /* BDJGenericContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJGenericContentViewController.m; sourceTree = "<group>"; };
+		50F78D9118EF5C6700E44AE8 /* timeline-end@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline-end@2x.png"; sourceTree = "<group>"; };
+		50F78D9218EF5C6700E44AE8 /* timeline-first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline-first@2x.png"; sourceTree = "<group>"; };
+		50F78D9318EF5C6700E44AE8 /* timeline-middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline-middle@2x.png"; sourceTree = "<group>"; };
+		50F78D9718EF649A00E44AE8 /* iu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iu@2x.png"; sourceTree = "<group>"; };
+		50F78D9918EF650000E44AE8 /* education@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "education@2x.png"; sourceTree = "<group>"; };
+		50F78D9B18EF675000E44AE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		50F78D9D18EF677700E44AE8 /* BDJEducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJEducationViewController.h; sourceTree = "<group>"; };
+		50F78D9E18EF677700E44AE8 /* BDJEducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJEducationViewController.m; sourceTree = "<group>"; };
+		50F78DA018EF6D5300E44AE8 /* iu-dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iu-dark@2x.png"; sourceTree = "<group>"; };
+		50F78DA218EF6E4500E44AE8 /* work@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work@2x.png"; sourceTree = "<group>"; };
+		50F78DA418EF6FC100E44AE8 /* green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green@2x.png"; sourceTree = "<group>"; };
+		50F78DA518EF6FC100E44AE8 /* timeline-end-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline-end-green@2x.png"; sourceTree = "<group>"; };
+		50F78DA618EF6FC100E44AE8 /* timeline-start-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline-start-green@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +110,7 @@
 			files = (
 				50F78D4618EF01CA00E44AE8 /* CoreGraphics.framework in Frameworks */,
 				50F78D4818EF01CA00E44AE8 /* UIKit.framework in Frameworks */,
+				50F78D9C18EF675000E44AE8 /* MapKit.framework in Frameworks */,
 				50F78D4418EF01CA00E44AE8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +150,7 @@
 		50F78D4218EF01CA00E44AE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50F78D9B18EF675000E44AE8 /* MapKit.framework */,
 				50F78D4318EF01CA00E44AE8 /* Foundation.framework */,
 				50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */,
 				50F78D4718EF01CA00E44AE8 /* UIKit.framework */,
@@ -115,8 +165,8 @@
 				50F78D5218EF01CA00E44AE8 /* BDJAppDelegate.h */,
 				50F78D5318EF01CA00E44AE8 /* BDJAppDelegate.m */,
 				50F78D5518EF01CA00E44AE8 /* Main.storyboard */,
-				50F78D5818EF01CA00E44AE8 /* BDJViewController.h */,
-				50F78D5918EF01CA00E44AE8 /* BDJViewController.m */,
+				50F78D7C18EF48EF00E44AE8 /* Classes */,
+				50F78D7B18EF48E500E44AE8 /* Assets */,
 				50F78D5B18EF01CA00E44AE8 /* Images.xcassets */,
 				50F78D4A18EF01CA00E44AE8 /* Supporting Files */,
 			);
@@ -150,6 +200,47 @@
 				50F78D6B18EF01CA00E44AE8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F78D7B18EF48E500E44AE8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				50F78DA418EF6FC100E44AE8 /* green@2x.png */,
+				50F78DA518EF6FC100E44AE8 /* timeline-end-green@2x.png */,
+				50F78DA618EF6FC100E44AE8 /* timeline-start-green@2x.png */,
+				50F78DA218EF6E4500E44AE8 /* work@2x.png */,
+				50F78DA018EF6D5300E44AE8 /* iu-dark@2x.png */,
+				50F78D9918EF650000E44AE8 /* education@2x.png */,
+				50F78D9718EF649A00E44AE8 /* iu@2x.png */,
+				50F78D9118EF5C6700E44AE8 /* timeline-end@2x.png */,
+				50F78D9218EF5C6700E44AE8 /* timeline-first@2x.png */,
+				50F78D9318EF5C6700E44AE8 /* timeline-middle@2x.png */,
+				50F78D8C18EF57B200E44AE8 /* blue@2x.png */,
+				50F78D8A18EF56AD00E44AE8 /* code@2x.png */,
+				50F78D8818EF514D00E44AE8 /* indianapolis-dark@2x.png */,
+				50F78D8618EF50C000E44AE8 /* me@2x.png */,
+				50F78D8118EF4A2900E44AE8 /* indianapolis@2x.png */,
+				50F78D7D18EF496000E44AE8 /* start.png */,
+				50F78D7E18EF496000E44AE8 /* start@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		50F78D7C18EF48EF00E44AE8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50F78D9D18EF677700E44AE8 /* BDJEducationViewController.h */,
+				50F78D9E18EF677700E44AE8 /* BDJEducationViewController.m */,
+				50F78D8E18EF583200E44AE8 /* BDJGenericContentViewController.h */,
+				50F78D8F18EF583200E44AE8 /* BDJGenericContentViewController.m */,
+				50F78D8318EF50AD00E44AE8 /* BDJAboutMeViewController.h */,
+				50F78D8418EF50AD00E44AE8 /* BDJAboutMeViewController.m */,
+				50F78D7818EF028300E44AE8 /* BDJMilestoneViewController.h */,
+				50F78D7918EF028300E44AE8 /* BDJMilestoneViewController.m */,
+				50F78D5818EF01CA00E44AE8 /* BDJViewController.h */,
+				50F78D5918EF01CA00E44AE8 /* BDJViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +291,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Brian Jett";
 				TargetAttributes = {
+					50F78D3F18EF01CA00E44AE8 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					50F78D6018EF01CA00E44AE8 = {
 						TestTargetID = 50F78D3F18EF01CA00E44AE8;
 					};
@@ -229,9 +327,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F78D8718EF50C000E44AE8 /* me@2x.png in Resources */,
+				50F78D9418EF5C6700E44AE8 /* timeline-end@2x.png in Resources */,
+				50F78D8D18EF57B200E44AE8 /* blue@2x.png in Resources */,
+				50F78D9A18EF650000E44AE8 /* education@2x.png in Resources */,
+				50F78D8218EF4A2900E44AE8 /* indianapolis@2x.png in Resources */,
 				50F78D5C18EF01CA00E44AE8 /* Images.xcassets in Resources */,
+				50F78DA718EF6FC100E44AE8 /* green@2x.png in Resources */,
 				50F78D4E18EF01CA00E44AE8 /* InfoPlist.strings in Resources */,
+				50F78DA918EF6FC100E44AE8 /* timeline-start-green@2x.png in Resources */,
+				50F78D9518EF5C6700E44AE8 /* timeline-first@2x.png in Resources */,
+				50F78DA818EF6FC100E44AE8 /* timeline-end-green@2x.png in Resources */,
+				50F78DA118EF6D5300E44AE8 /* iu-dark@2x.png in Resources */,
+				50F78DA318EF6E4500E44AE8 /* work@2x.png in Resources */,
+				50F78D7F18EF496000E44AE8 /* start.png in Resources */,
+				50F78D8018EF496000E44AE8 /* start@2x.png in Resources */,
+				50F78D8B18EF56AD00E44AE8 /* code@2x.png in Resources */,
 				50F78D5718EF01CA00E44AE8 /* Main.storyboard in Resources */,
+				50F78D9818EF649A00E44AE8 /* iu@2x.png in Resources */,
+				50F78D9618EF5C6700E44AE8 /* timeline-middle@2x.png in Resources */,
+				50F78D8918EF514D00E44AE8 /* indianapolis-dark@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +366,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F78D5018EF01CA00E44AE8 /* main.m in Sources */,
+				50F78D9018EF583200E44AE8 /* BDJGenericContentViewController.m in Sources */,
+				50F78D8518EF50AD00E44AE8 /* BDJAboutMeViewController.m in Sources */,
 				50F78D5418EF01CA00E44AE8 /* BDJAppDelegate.m in Sources */,
+				50F78D7A18EF028300E44AE8 /* BDJMilestoneViewController.m in Sources */,
 				50F78D5A18EF01CA00E44AE8 /* BDJViewController.m in Sources */,
+				50F78D9F18EF677700E44AE8 /* BDJEducationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
