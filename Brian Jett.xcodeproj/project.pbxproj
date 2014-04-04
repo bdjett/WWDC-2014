@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F78D4418EF01CA00E44AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4318EF01CA00E44AE8 /* Foundation.framework */; };
+		50F78D4618EF01CA00E44AE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */; };
+		50F78D4818EF01CA00E44AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4718EF01CA00E44AE8 /* UIKit.framework */; };
+		50F78D4E18EF01CA00E44AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D4C18EF01CA00E44AE8 /* InfoPlist.strings */; };
+		50F78D5018EF01CA00E44AE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D4F18EF01CA00E44AE8 /* main.m */; };
+		50F78D5418EF01CA00E44AE8 /* BDJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D5318EF01CA00E44AE8 /* BDJAppDelegate.m */; };
+		50F78D5718EF01CA00E44AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D5518EF01CA00E44AE8 /* Main.storyboard */; };
+		50F78D5A18EF01CA00E44AE8 /* BDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D5918EF01CA00E44AE8 /* BDJViewController.m */; };
+		50F78D5C18EF01CA00E44AE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D5B18EF01CA00E44AE8 /* Images.xcassets */; };
+		50F78D6318EF01CA00E44AE8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D6218EF01CA00E44AE8 /* XCTest.framework */; };
+		50F78D6418EF01CA00E44AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4318EF01CA00E44AE8 /* Foundation.framework */; };
+		50F78D6518EF01CA00E44AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4718EF01CA00E44AE8 /* UIKit.framework */; };
+		50F78D6D18EF01CA00E44AE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F78D6B18EF01CA00E44AE8 /* InfoPlist.strings */; };
+		50F78D6F18EF01CA00E44AE8 /* Brian_JettTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F78D6E18EF01CA00E44AE8 /* Brian_JettTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F78D6618EF01CA00E44AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F78D3818EF01CA00E44AE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F78D3F18EF01CA00E44AE8;
+			remoteInfo = "Brian Jett";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F78D4018EF01CA00E44AE8 /* Brian Jett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brian Jett.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F78D4318EF01CA00E44AE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50F78D4718EF01CA00E44AE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50F78D4B18EF01CA00E44AE8 /* Brian Jett-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brian Jett-Info.plist"; sourceTree = "<group>"; };
+		50F78D4D18EF01CA00E44AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F78D4F18EF01CA00E44AE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F78D5118EF01CA00E44AE8 /* Brian Jett-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brian Jett-Prefix.pch"; sourceTree = "<group>"; };
+		50F78D5218EF01CA00E44AE8 /* BDJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDJAppDelegate.h; sourceTree = "<group>"; };
+		50F78D5318EF01CA00E44AE8 /* BDJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDJAppDelegate.m; sourceTree = "<group>"; };
+		50F78D5618EF01CA00E44AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F78D5818EF01CA00E44AE8 /* BDJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDJViewController.h; sourceTree = "<group>"; };
+		50F78D5918EF01CA00E44AE8 /* BDJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDJViewController.m; sourceTree = "<group>"; };
+		50F78D5B18EF01CA00E44AE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50F78D6118EF01CA00E44AE8 /* Brian JettTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brian JettTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F78D6218EF01CA00E44AE8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50F78D6A18EF01CA00E44AE8 /* Brian JettTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brian JettTests-Info.plist"; sourceTree = "<group>"; };
+		50F78D6C18EF01CA00E44AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F78D6E18EF01CA00E44AE8 /* Brian_JettTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brian_JettTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F78D3D18EF01CA00E44AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F78D4618EF01CA00E44AE8 /* CoreGraphics.framework in Frameworks */,
+				50F78D4818EF01CA00E44AE8 /* UIKit.framework in Frameworks */,
+				50F78D4418EF01CA00E44AE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F78D5E18EF01CA00E44AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F78D6318EF01CA00E44AE8 /* XCTest.framework in Frameworks */,
+				50F78D6518EF01CA00E44AE8 /* UIKit.framework in Frameworks */,
+				50F78D6418EF01CA00E44AE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F78D3718EF01CA00E44AE8 = {
+			isa = PBXGroup;
+			children = (
+				50F78D4918EF01CA00E44AE8 /* Brian Jett */,
+				50F78D6818EF01CA00E44AE8 /* Brian JettTests */,
+				50F78D4218EF01CA00E44AE8 /* Frameworks */,
+				50F78D4118EF01CA00E44AE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F78D4118EF01CA00E44AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F78D4018EF01CA00E44AE8 /* Brian Jett.app */,
+				50F78D6118EF01CA00E44AE8 /* Brian JettTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F78D4218EF01CA00E44AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F78D4318EF01CA00E44AE8 /* Foundation.framework */,
+				50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */,
+				50F78D4718EF01CA00E44AE8 /* UIKit.framework */,
+				50F78D6218EF01CA00E44AE8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50F78D4918EF01CA00E44AE8 /* Brian Jett */ = {
+			isa = PBXGroup;
+			children = (
+				50F78D5218EF01CA00E44AE8 /* BDJAppDelegate.h */,
+				50F78D5318EF01CA00E44AE8 /* BDJAppDelegate.m */,
+				50F78D5518EF01CA00E44AE8 /* Main.storyboard */,
+				50F78D5818EF01CA00E44AE8 /* BDJViewController.h */,
+				50F78D5918EF01CA00E44AE8 /* BDJViewController.m */,
+				50F78D5B18EF01CA00E44AE8 /* Images.xcassets */,
+				50F78D4A18EF01CA00E44AE8 /* Supporting Files */,
+			);
+			path = "Brian Jett";
+			sourceTree = "<group>";
+		};
+		50F78D4A18EF01CA00E44AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F78D4B18EF01CA00E44AE8 /* Brian Jett-Info.plist */,
+				50F78D4C18EF01CA00E44AE8 /* InfoPlist.strings */,
+				50F78D4F18EF01CA00E44AE8 /* main.m */,
+				50F78D5118EF01CA00E44AE8 /* Brian Jett-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F78D6818EF01CA00E44AE8 /* Brian JettTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F78D6E18EF01CA00E44AE8 /* Brian_JettTests.m */,
+				50F78D6918EF01CA00E44AE8 /* Supporting Files */,
+			);
+			path = "Brian JettTests";
+			sourceTree = "<group>";
+		};
+		50F78D6918EF01CA00E44AE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F78D6A18EF01CA00E44AE8 /* Brian JettTests-Info.plist */,
+				50F78D6B18EF01CA00E44AE8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F78D3F18EF01CA00E44AE8 /* Brian Jett */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F78D7218EF01CA00E44AE8 /* Build configuration list for PBXNativeTarget "Brian Jett" */;
+			buildPhases = (
+				50F78D3C18EF01CA00E44AE8 /* Sources */,
+				50F78D3D18EF01CA00E44AE8 /* Frameworks */,
+				50F78D3E18EF01CA00E44AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brian Jett";
+			productName = "Brian Jett";
+			productReference = 50F78D4018EF01CA00E44AE8 /* Brian Jett.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F78D6018EF01CA00E44AE8 /* Brian JettTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F78D7518EF01CA00E44AE8 /* Build configuration list for PBXNativeTarget "Brian JettTests" */;
+			buildPhases = (
+				50F78D5D18EF01CA00E44AE8 /* Sources */,
+				50F78D5E18EF01CA00E44AE8 /* Frameworks */,
+				50F78D5F18EF01CA00E44AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F78D6718EF01CA00E44AE8 /* PBXTargetDependency */,
+			);
+			name = "Brian JettTests";
+			productName = "Brian JettTests";
+			productReference = 50F78D6118EF01CA00E44AE8 /* Brian JettTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F78D3818EF01CA00E44AE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BDJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Brian Jett";
+				TargetAttributes = {
+					50F78D6018EF01CA00E44AE8 = {
+						TestTargetID = 50F78D3F18EF01CA00E44AE8;
+					};
+				};
+			};
+			buildConfigurationList = 50F78D3B18EF01CA00E44AE8 /* Build configuration list for PBXProject "Brian Jett" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F78D3718EF01CA00E44AE8;
+			productRefGroup = 50F78D4118EF01CA00E44AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F78D3F18EF01CA00E44AE8 /* Brian Jett */,
+				50F78D6018EF01CA00E44AE8 /* Brian JettTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F78D3E18EF01CA00E44AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F78D5C18EF01CA00E44AE8 /* Images.xcassets in Resources */,
+				50F78D4E18EF01CA00E44AE8 /* InfoPlist.strings in Resources */,
+				50F78D5718EF01CA00E44AE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F78D5F18EF01CA00E44AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F78D6D18EF01CA00E44AE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F78D3C18EF01CA00E44AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F78D5018EF01CA00E44AE8 /* main.m in Sources */,
+				50F78D5418EF01CA00E44AE8 /* BDJAppDelegate.m in Sources */,
+				50F78D5A18EF01CA00E44AE8 /* BDJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F78D5D18EF01CA00E44AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F78D6F18EF01CA00E44AE8 /* Brian_JettTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F78D6718EF01CA00E44AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F78D3F18EF01CA00E44AE8 /* Brian Jett */;
+			targetProxy = 50F78D6618EF01CA00E44AE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F78D4C18EF01CA00E44AE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F78D4D18EF01CA00E44AE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50F78D5518EF01CA00E44AE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F78D5618EF01CA00E44AE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F78D6B18EF01CA00E44AE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F78D6C18EF01CA00E44AE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F78D7018EF01CA00E44AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50F78D7118EF01CA00E44AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F78D7318EF01CA00E44AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brian Jett/Brian Jett-Prefix.pch";
+				INFOPLIST_FILE = "Brian Jett/Brian Jett-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50F78D7418EF01CA00E44AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brian Jett/Brian Jett-Prefix.pch";
+				INFOPLIST_FILE = "Brian Jett/Brian Jett-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50F78D7618EF01CA00E44AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brian Jett.app/Brian Jett";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brian Jett/Brian Jett-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brian JettTests/Brian JettTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50F78D7718EF01CA00E44AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brian Jett.app/Brian Jett";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brian Jett/Brian Jett-Prefix.pch";
+				INFOPLIST_FILE = "Brian JettTests/Brian JettTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F78D3B18EF01CA00E44AE8 /* Build configuration list for PBXProject "Brian Jett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F78D7018EF01CA00E44AE8 /* Debug */,
+				50F78D7118EF01CA00E44AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F78D7218EF01CA00E44AE8 /* Build configuration list for PBXNativeTarget "Brian Jett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F78D7318EF01CA00E44AE8 /* Debug */,
+				50F78D7418EF01CA00E44AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50F78D7518EF01CA00E44AE8 /* Build configuration list for PBXNativeTarget "Brian JettTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F78D7618EF01CA00E44AE8 /* Debug */,
+				50F78D7718EF01CA00E44AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F78D3818EF01CA00E44AE8 /* Project object */;
+}
