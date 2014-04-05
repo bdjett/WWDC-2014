@@ -33,7 +33,7 @@
     [super viewDidLoad];
 	
 	// List of view controller IDs
-	self.viewControllers = @[@"Milestone1", @"AboutMe", @"Milestone2", @"WebDesign", @"WebDesign2", @"WebDesign3", @"Milestone3", @"Education", @"Milestone4", @"Professional1", @"Professional2", @"Milestone5", @"Project1", @"Project2"];
+	self.viewControllers = @[@"Milestone1", @"AboutMe", @"Milestone2", @"WebDesign", @"WebDesign2", @"WebDesign3", @"Milestone3", @"Education", @"Milestone4", @"Professional1", @"Professional2", @"Milestone5", @"Project1", @"Project2", @"Project3", @"Project4", @"Project5", @"Milestone6", @"TechSkills", @"Future", @"End"];
 	
 	// Set up page view controller
 	self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
@@ -158,6 +158,48 @@
 		vc.pageIndex = index;
 		vc.projectUrl = @"http://carolinemosey.com";
 		return vc;
+	} else if (index == 14) {
+		// fiftenth view controller
+		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project3"];
+		vc.pageIndex = index;
+		vc.projectUrl = @"http://genhotels.com";
+		return vc;
+	} else if (index == 15) {
+		// sixteenth view controller
+		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project4"];
+		vc.pageIndex = index;
+		vc.projectUrl = @"http://genhotels.com";
+		return vc;
+	} else if (index == 16) {
+		// sevententh view controller
+		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project5"];
+		vc.pageIndex = index;
+		vc.projectUrl = @"http://genhtoels.com";
+		return vc;
+	} else if (index == 17) {
+		// eighteenth view controller
+		BDJMilestoneViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Milestone6"];
+		vc.pageIndex = index;
+		vc.backgroundImage = @"blue.png";
+		vc.iconImage = @"work.png";
+		vc.titleText = @"Technical Skills";
+		vc.subtitleText = @"";
+		return vc;
+	} else if (index == 18) {
+		// nineteenth view controller
+		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"TechSkills"];
+		vc.pageIndex = index;
+		return vc;
+	} else if (index == 19) {
+		// twentieth view controller
+		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Future"];
+		vc.pageIndex = index;
+		return vc;
+	} else if (index == 20) {
+		// tenty-first view controller
+		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"End"];
+		vc.pageIndex = index;
+		return vc;
 	}else {
 		return nil;
 	}
@@ -202,6 +244,7 @@
 	}
 }
 
+/*
 - (NSInteger)presentationCountForPageViewController:(UIPageViewController *)pageViewController {
 	
 	// return number of view controllers
@@ -212,5 +255,6 @@
 	
 	return 0;
 }
+*/
 
 @end
