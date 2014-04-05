@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5074145518EF7C0C00252716 /* orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145218EF7C0C00252716 /* orange@2x.png */; };
+		5074145618EF7C0C00252716 /* purple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145318EF7C0C00252716 /* purple@2x.png */; };
+		5074145718EF7C0C00252716 /* red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145418EF7C0C00252716 /* red@2x.png */; };
+		5074145918EF801300252716 /* logicalpixels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145818EF801300252716 /* logicalpixels@2x.png */; };
+		5074145C18EF809400252716 /* BDJProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074145B18EF809400252716 /* BDJProjectViewController.m */; };
+		5074145F18EF83B800252716 /* BDJProject1WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074145E18EF83B800252716 /* BDJProject1WebViewViewController.m */; };
 		50F78D4418EF01CA00E44AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4318EF01CA00E44AE8 /* Foundation.framework */; };
 		50F78D4618EF01CA00E44AE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */; };
 		50F78D4818EF01CA00E44AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4718EF01CA00E44AE8 /* UIKit.framework */; };
@@ -43,6 +49,7 @@
 		50F78DA718EF6FC100E44AE8 /* green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DA418EF6FC100E44AE8 /* green@2x.png */; };
 		50F78DA818EF6FC100E44AE8 /* timeline-end-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DA518EF6FC100E44AE8 /* timeline-end-green@2x.png */; };
 		50F78DA918EF6FC100E44AE8 /* timeline-start-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DA618EF6FC100E44AE8 /* timeline-start-green@2x.png */; };
+		50F78DAB18EF737300E44AE8 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F78DAA18EF737300E44AE8 /* star@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5074145218EF7C0C00252716 /* orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange@2x.png"; sourceTree = "<group>"; };
+		5074145318EF7C0C00252716 /* purple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple@2x.png"; sourceTree = "<group>"; };
+		5074145418EF7C0C00252716 /* red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red@2x.png"; sourceTree = "<group>"; };
+		5074145818EF801300252716 /* logicalpixels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logicalpixels@2x.png"; sourceTree = "<group>"; };
+		5074145A18EF809400252716 /* BDJProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJProjectViewController.h; sourceTree = "<group>"; };
+		5074145B18EF809400252716 /* BDJProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJProjectViewController.m; sourceTree = "<group>"; };
+		5074145D18EF83B800252716 /* BDJProject1WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJProject1WebViewViewController.h; sourceTree = "<group>"; };
+		5074145E18EF83B800252716 /* BDJProject1WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJProject1WebViewViewController.m; sourceTree = "<group>"; };
 		50F78D4018EF01CA00E44AE8 /* Brian Jett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brian Jett.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78D4318EF01CA00E44AE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -101,6 +116,7 @@
 		50F78DA418EF6FC100E44AE8 /* green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green@2x.png"; sourceTree = "<group>"; };
 		50F78DA518EF6FC100E44AE8 /* timeline-end-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline-end-green@2x.png"; sourceTree = "<group>"; };
 		50F78DA618EF6FC100E44AE8 /* timeline-start-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline-start-green@2x.png"; sourceTree = "<group>"; };
+		50F78DAA18EF737300E44AE8 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +221,11 @@
 		50F78D7B18EF48E500E44AE8 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				5074145818EF801300252716 /* logicalpixels@2x.png */,
+				5074145218EF7C0C00252716 /* orange@2x.png */,
+				5074145318EF7C0C00252716 /* purple@2x.png */,
+				5074145418EF7C0C00252716 /* red@2x.png */,
+				50F78DAA18EF737300E44AE8 /* star@2x.png */,
 				50F78DA418EF6FC100E44AE8 /* green@2x.png */,
 				50F78DA518EF6FC100E44AE8 /* timeline-end-green@2x.png */,
 				50F78DA618EF6FC100E44AE8 /* timeline-start-green@2x.png */,
@@ -229,6 +250,10 @@
 		50F78D7C18EF48EF00E44AE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5074145D18EF83B800252716 /* BDJProject1WebViewViewController.h */,
+				5074145E18EF83B800252716 /* BDJProject1WebViewViewController.m */,
+				5074145A18EF809400252716 /* BDJProjectViewController.h */,
+				5074145B18EF809400252716 /* BDJProjectViewController.m */,
 				50F78D9D18EF677700E44AE8 /* BDJEducationViewController.h */,
 				50F78D9E18EF677700E44AE8 /* BDJEducationViewController.m */,
 				50F78D8E18EF583200E44AE8 /* BDJGenericContentViewController.h */,
@@ -331,13 +356,18 @@
 				50F78D9418EF5C6700E44AE8 /* timeline-end@2x.png in Resources */,
 				50F78D8D18EF57B200E44AE8 /* blue@2x.png in Resources */,
 				50F78D9A18EF650000E44AE8 /* education@2x.png in Resources */,
+				5074145618EF7C0C00252716 /* purple@2x.png in Resources */,
 				50F78D8218EF4A2900E44AE8 /* indianapolis@2x.png in Resources */,
 				50F78D5C18EF01CA00E44AE8 /* Images.xcassets in Resources */,
 				50F78DA718EF6FC100E44AE8 /* green@2x.png in Resources */,
 				50F78D4E18EF01CA00E44AE8 /* InfoPlist.strings in Resources */,
 				50F78DA918EF6FC100E44AE8 /* timeline-start-green@2x.png in Resources */,
+				5074145718EF7C0C00252716 /* red@2x.png in Resources */,
+				5074145918EF801300252716 /* logicalpixels@2x.png in Resources */,
+				50F78DAB18EF737300E44AE8 /* star@2x.png in Resources */,
 				50F78D9518EF5C6700E44AE8 /* timeline-first@2x.png in Resources */,
 				50F78DA818EF6FC100E44AE8 /* timeline-end-green@2x.png in Resources */,
+				5074145518EF7C0C00252716 /* orange@2x.png in Resources */,
 				50F78DA118EF6D5300E44AE8 /* iu-dark@2x.png in Resources */,
 				50F78DA318EF6E4500E44AE8 /* work@2x.png in Resources */,
 				50F78D7F18EF496000E44AE8 /* start.png in Resources */,
@@ -368,8 +398,10 @@
 				50F78D5018EF01CA00E44AE8 /* main.m in Sources */,
 				50F78D9018EF583200E44AE8 /* BDJGenericContentViewController.m in Sources */,
 				50F78D8518EF50AD00E44AE8 /* BDJAboutMeViewController.m in Sources */,
+				5074145C18EF809400252716 /* BDJProjectViewController.m in Sources */,
 				50F78D5418EF01CA00E44AE8 /* BDJAppDelegate.m in Sources */,
 				50F78D7A18EF028300E44AE8 /* BDJMilestoneViewController.m in Sources */,
+				5074145F18EF83B800252716 /* BDJProject1WebViewViewController.m in Sources */,
 				50F78D5A18EF01CA00E44AE8 /* BDJViewController.m in Sources */,
 				50F78D9F18EF677700E44AE8 /* BDJEducationViewController.m in Sources */,
 			);
@@ -576,6 +608,7 @@
 				50F78D7418EF01CA00E44AE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50F78D7518EF01CA00E44AE8 /* Build configuration list for PBXNativeTarget "Brian JettTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +617,7 @@
 				50F78D7718EF01CA00E44AE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

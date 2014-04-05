@@ -11,6 +11,7 @@
 #import "BDJAboutMeViewController.h"
 #import "BDJGenericContentViewController.h"
 #import "BDJEducationViewController.h"
+#import "BDJProjectViewController.h"
 
 @interface BDJViewController ()
 
@@ -32,7 +33,7 @@
     [super viewDidLoad];
 	
 	// List of view controller IDs
-	self.viewControllers = @[@"Milestone1", @"AboutMe", @"Milestone2", @"WebDesign", @"WebDesign2", @"WebDesign3", @"Milestone3", @"Education", @"Milestone4", @"Professional1", @"Professional2"];
+	self.viewControllers = @[@"Milestone1", @"AboutMe", @"Milestone2", @"WebDesign", @"WebDesign2", @"WebDesign3", @"Milestone3", @"Education", @"Milestone4", @"Professional1", @"Professional2", @"Milestone5", @"Project1", @"Project2"];
 	
 	// Set up page view controller
 	self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
@@ -69,7 +70,7 @@
 		// first view controller
 		BDJMilestoneViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Milestone1"];
 		vc.pageIndex = index;
-		vc.backgroundImage = @"indianapolis.png";
+		vc.backgroundImage = @"red.png";
 		vc.iconImage = @"start.png";
 		vc.titleText = @"It Starts Here";
 		vc.subtitleText = @"";
@@ -107,7 +108,7 @@
 		// seventh view controller
 		BDJMilestoneViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Milestone3"];
 		vc.pageIndex = index;
-		vc.backgroundImage = @"iu.png";
+		vc.backgroundImage = @"orange.png";
 		vc.iconImage = @"education.png";
 		vc.titleText = @"Education";
 		vc.subtitleText = @"";
@@ -135,6 +136,27 @@
 		// eleventh view controller
 		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Professional2"];
 		vc.pageIndex = index;
+		return vc;
+	} else if (index == 11) {
+		// twelfth view controller
+		BDJMilestoneViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Milestone5"];
+		vc.pageIndex = index;
+		vc.backgroundImage = @"purple.png";
+		vc.iconImage = @"star.png";
+		vc.titleText = @"My Work";
+		vc.subtitleText = @"";
+		return vc;
+	} else if (index == 12) {
+		// thirteenth view controller
+		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project1"];
+		vc.pageIndex = index;
+		vc.projectUrl = @"http://logicalpixels.com";
+		return vc;
+	} else if (index == 13) {
+		// fourteenth view controller
+		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project2"];
+		vc.pageIndex = index;
+		vc.projectUrl = @"http://carolinemosey.com";
 		return vc;
 	}else {
 		return nil;
