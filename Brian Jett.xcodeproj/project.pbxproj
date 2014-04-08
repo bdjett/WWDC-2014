@@ -18,6 +18,14 @@
 		5074146818F08B2900252716 /* logicalpixels-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074146718F08B2900252716 /* logicalpixels-bg@2x.png */; };
 		5074146A18F08F4B00252716 /* mdeapp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074146918F08F4B00252716 /* mdeapp@2x.png */; };
 		5074146D18F08F6F00252716 /* BDJPebbleAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074146C18F08F6F00252716 /* BDJPebbleAppViewController.m */; };
+		5074147218F3084F00252716 /* buseta-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074146E18F3084F00252716 /* buseta-circle@2x.png */; };
+		5074147318F3084F00252716 /* caroline-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074146F18F3084F00252716 /* caroline-circle@2x.png */; };
+		5074147418F3084F00252716 /* ghc-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147018F3084F00252716 /* ghc-circle@2x.png */; };
+		5074147518F3084F00252716 /* mde-circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147118F3084F00252716 /* mde-circle@2x.png */; };
+		5074147718F309D800252716 /* buseta@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147618F309D800252716 /* buseta@2x.png */; };
+		5074147918F30CCA00252716 /* wwdc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147818F30CCA00252716 /* wwdc@2x.png */; };
+		5074147B18F30EEF00252716 /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147A18F30EEF00252716 /* rocket@2x.png */; };
+		5074148018F31D5800252716 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147F18F31D5800252716 /* menu@2x.png */; };
 		50F78D4418EF01CA00E44AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4318EF01CA00E44AE8 /* Foundation.framework */; };
 		50F78D4618EF01CA00E44AE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */; };
 		50F78D4818EF01CA00E44AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4718EF01CA00E44AE8 /* UIKit.framework */; };
@@ -82,6 +90,14 @@
 		5074146918F08F4B00252716 /* mdeapp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mdeapp@2x.png"; sourceTree = "<group>"; };
 		5074146B18F08F6F00252716 /* BDJPebbleAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJPebbleAppViewController.h; sourceTree = "<group>"; };
 		5074146C18F08F6F00252716 /* BDJPebbleAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJPebbleAppViewController.m; sourceTree = "<group>"; };
+		5074146E18F3084F00252716 /* buseta-circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buseta-circle@2x.png"; sourceTree = "<group>"; };
+		5074146F18F3084F00252716 /* caroline-circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caroline-circle@2x.png"; sourceTree = "<group>"; };
+		5074147018F3084F00252716 /* ghc-circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ghc-circle@2x.png"; sourceTree = "<group>"; };
+		5074147118F3084F00252716 /* mde-circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mde-circle@2x.png"; sourceTree = "<group>"; };
+		5074147618F309D800252716 /* buseta@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buseta@2x.png"; sourceTree = "<group>"; };
+		5074147818F30CCA00252716 /* wwdc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wwdc@2x.png"; sourceTree = "<group>"; };
+		5074147A18F30EEF00252716 /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
+		5074147F18F31D5800252716 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		50F78D4018EF01CA00E44AE8 /* Brian Jett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brian Jett.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78D4318EF01CA00E44AE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -232,6 +248,14 @@
 		50F78D7B18EF48E500E44AE8 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				5074147F18F31D5800252716 /* menu@2x.png */,
+				5074147A18F30EEF00252716 /* rocket@2x.png */,
+				5074147818F30CCA00252716 /* wwdc@2x.png */,
+				5074147618F309D800252716 /* buseta@2x.png */,
+				5074146E18F3084F00252716 /* buseta-circle@2x.png */,
+				5074146F18F3084F00252716 /* caroline-circle@2x.png */,
+				5074147018F3084F00252716 /* ghc-circle@2x.png */,
+				5074147118F3084F00252716 /* mde-circle@2x.png */,
 				5074146918F08F4B00252716 /* mdeapp@2x.png */,
 				5074146718F08B2900252716 /* logicalpixels-bg@2x.png */,
 				5074146518F08AE200252716 /* caroline@2x.png */,
@@ -369,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5074147218F3084F00252716 /* buseta-circle@2x.png in Resources */,
 				50F78D8718EF50C000E44AE8 /* me@2x.png in Resources */,
 				50F78D9418EF5C6700E44AE8 /* timeline-end@2x.png in Resources */,
 				5074146818F08B2900252716 /* logicalpixels-bg@2x.png in Resources */,
@@ -379,9 +404,14 @@
 				50F78D8218EF4A2900E44AE8 /* indianapolis@2x.png in Resources */,
 				5074146418F08A5400252716 /* ghc@2x.png in Resources */,
 				50F78D5C18EF01CA00E44AE8 /* Images.xcassets in Resources */,
+				5074148018F31D5800252716 /* menu@2x.png in Resources */,
 				50F78DA718EF6FC100E44AE8 /* green@2x.png in Resources */,
+				5074147718F309D800252716 /* buseta@2x.png in Resources */,
 				50F78D4E18EF01CA00E44AE8 /* InfoPlist.strings in Resources */,
+				5074147B18F30EEF00252716 /* rocket@2x.png in Resources */,
+				5074147318F3084F00252716 /* caroline-circle@2x.png in Resources */,
 				50F78DA918EF6FC100E44AE8 /* timeline-start-green@2x.png in Resources */,
+				5074147918F30CCA00252716 /* wwdc@2x.png in Resources */,
 				5074145718EF7C0C00252716 /* red@2x.png in Resources */,
 				5074145918EF801300252716 /* logicalpixels@2x.png in Resources */,
 				50F78DAB18EF737300E44AE8 /* star@2x.png in Resources */,
@@ -398,6 +428,8 @@
 				50F78D9618EF5C6700E44AE8 /* timeline-middle@2x.png in Resources */,
 				5074146618F08AE200252716 /* caroline@2x.png in Resources */,
 				50F78D8918EF514D00E44AE8 /* indianapolis-dark@2x.png in Resources */,
+				5074147518F3084F00252716 /* mde-circle@2x.png in Resources */,
+				5074147418F3084F00252716 /* ghc-circle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

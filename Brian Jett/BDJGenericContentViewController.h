@@ -10,6 +10,8 @@
 
 @interface BDJGenericContentViewController : UIViewController
 
+@property IBOutlet UIButton *emailButton;
+@property IBOutlet UIButton *resumeButton;
 @property NSUInteger pageIndex;
 
 @end

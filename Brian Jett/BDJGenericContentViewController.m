@@ -26,7 +26,16 @@
 - (void)viewDidLoad {
 	
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+	self.resumeButton.tintColor = [UIColor whiteColor];
+	self.resumeButton.layer.cornerRadius = 4;
+	self.resumeButton.layer.borderWidth = 1;
+	self.resumeButton.layer.borderColor = [UIColor whiteColor].CGColor;
+	
+	self.emailButton.tintColor = [UIColor whiteColor];
+	self.emailButton.layer.cornerRadius = 4;
+	self.emailButton.layer.borderWidth = 1;
+	self.emailButton.layer.borderColor = [UIColor whiteColor].CGColor;
 }
 
 - (void)didReceiveMemoryWarning {

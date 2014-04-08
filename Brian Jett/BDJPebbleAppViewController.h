@@ -10,6 +10,7 @@
 
 @interface BDJPebbleAppViewController : UIViewController
 
+@property IBOutlet UIImageView *imageView;
 @property NSString *fullUrl;
 
 - (IBAction)close:(id)sender;

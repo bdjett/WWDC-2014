@@ -32,7 +32,10 @@
 - (void)viewDidLoad {
 	
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+	
+	self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+    
+	self.imageView.image = [UIImage imageNamed:self.fullUrl];
 }
 
 - (void)didReceiveMemoryWarning {

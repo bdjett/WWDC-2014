@@ -19,6 +19,10 @@
 
 @implementation BDJViewController
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+	return UIStatusBarStyleLightContent;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -32,8 +36,10 @@
 	
     [super viewDidLoad];
 	
+	[self setNeedsStatusBarAppearanceUpdate];
+	
 	// List of view controller IDs
-	self.viewControllers = @[@"Milestone1", @"AboutMe", @"Milestone2", @"WebDesign", @"WebDesign2", @"WebDesign3", @"Milestone3", @"Education", @"Milestone4", @"Professional1", @"Professional2", @"Milestone5", @"Project1", @"Project2", @"Project3", @"Project4", @"Project5", @"Milestone6", @"TechSkills", @"Future", @"End"];
+	self.viewControllers = @[@"Milestone1", @"AboutMe", @"Milestone2", @"WebDesign", @"WebDesign2", @"WebDesign3", @"Milestone3", @"Education", @"Milestone4", @"Professional1", @"Professional2", @"Milestone5", @"Project1", @"Project2", @"Project3", @"Project4", @"Project5", @"Milestone6", @"TechSkills", @"WWDC", @"Future", @"End"];
 	
 	// Set up page view controller
 	self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
@@ -51,6 +57,13 @@
 	[self addChildViewController:self.pageViewController];
 	[self.view addSubview:self.pageViewController.view];
 	[self.pageViewController didMoveToParentViewController:self];
+	
+	// Button
+	//UIButton *menuButton = [[UIButton alloc] init];
+	//menuButton.frame = CGRectMake(20, 30, 20, 20);
+	//[menuButton setImage:[UIImage imageNamed:@"menu.png"] forState:UIControlStateNormal];
+	//[self.view addSubview:menuButton];
+	
 }
 
 - (void)didReceiveMemoryWarning {
@@ -168,13 +181,13 @@
 		// sixteenth view controller
 		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project4"];
 		vc.pageIndex = index;
-		vc.projectUrl = @"http://genhotels.com";
+		vc.projectUrl = @"mdeapp.png";
 		return vc;
 	} else if (index == 16) {
 		// sevententh view controller
 		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project5"];
 		vc.pageIndex = index;
-		vc.projectUrl = @"http://genhtoels.com";
+		vc.projectUrl = @"buseta.png";
 		return vc;
 	} else if (index == 17) {
 		// eighteenth view controller
@@ -191,11 +204,15 @@
 		vc.pageIndex = index;
 		return vc;
 	} else if (index == 19) {
+		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"WWDC"];
+		vc.pageIndex = index;
+		return vc;
+	}else if (index == 20) {
 		// twentieth view controller
 		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Future"];
 		vc.pageIndex = index;
 		return vc;
-	} else if (index == 20) {
+	} else if (index == 21) {
 		// tenty-first view controller
 		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"End"];
 		vc.pageIndex = index;
