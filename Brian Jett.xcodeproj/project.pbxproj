@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501BB98618F4AF2E00556567 /* BDJMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501BB98518F4AF2E00556567 /* BDJMenuViewController.m */; };
 		5074145518EF7C0C00252716 /* orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145218EF7C0C00252716 /* orange@2x.png */; };
 		5074145618EF7C0C00252716 /* purple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145318EF7C0C00252716 /* purple@2x.png */; };
 		5074145718EF7C0C00252716 /* red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145418EF7C0C00252716 /* red@2x.png */; };
@@ -26,6 +27,10 @@
 		5074147918F30CCA00252716 /* wwdc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147818F30CCA00252716 /* wwdc@2x.png */; };
 		5074147B18F30EEF00252716 /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147A18F30EEF00252716 /* rocket@2x.png */; };
 		5074148018F31D5800252716 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074147F18F31D5800252716 /* menu@2x.png */; };
+		5074148618F4849400252716 /* BDJResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074148518F4849400252716 /* BDJResumeViewController.m */; };
+		5074148A18F48A8200252716 /* bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074148718F48A8200252716 /* bell@2x.png */; };
+		5074148B18F48A8200252716 /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074148818F48A8200252716 /* globe@2x.png */; };
+		5074148C18F48A8200252716 /* race@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074148918F48A8200252716 /* race@2x.png */; };
 		50F78D4418EF01CA00E44AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4318EF01CA00E44AE8 /* Foundation.framework */; };
 		50F78D4618EF01CA00E44AE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */; };
 		50F78D4818EF01CA00E44AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F78D4718EF01CA00E44AE8 /* UIKit.framework */; };
@@ -76,6 +81,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		501BB98418F4AF2E00556567 /* BDJMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJMenuViewController.h; sourceTree = "<group>"; };
+		501BB98518F4AF2E00556567 /* BDJMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJMenuViewController.m; sourceTree = "<group>"; };
 		5074145218EF7C0C00252716 /* orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange@2x.png"; sourceTree = "<group>"; };
 		5074145318EF7C0C00252716 /* purple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple@2x.png"; sourceTree = "<group>"; };
 		5074145418EF7C0C00252716 /* red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red@2x.png"; sourceTree = "<group>"; };
@@ -98,6 +105,11 @@
 		5074147818F30CCA00252716 /* wwdc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wwdc@2x.png"; sourceTree = "<group>"; };
 		5074147A18F30EEF00252716 /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
 		5074147F18F31D5800252716 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		5074148418F4849400252716 /* BDJResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJResumeViewController.h; sourceTree = "<group>"; };
+		5074148518F4849400252716 /* BDJResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJResumeViewController.m; sourceTree = "<group>"; };
+		5074148718F48A8200252716 /* bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell@2x.png"; sourceTree = "<group>"; };
+		5074148818F48A8200252716 /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe@2x.png"; sourceTree = "<group>"; };
+		5074148918F48A8200252716 /* race@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "race@2x.png"; sourceTree = "<group>"; };
 		50F78D4018EF01CA00E44AE8 /* Brian Jett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brian Jett.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78D4318EF01CA00E44AE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50F78D4518EF01CA00E44AE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -248,6 +260,9 @@
 		50F78D7B18EF48E500E44AE8 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				5074148718F48A8200252716 /* bell@2x.png */,
+				5074148818F48A8200252716 /* globe@2x.png */,
+				5074148918F48A8200252716 /* race@2x.png */,
 				5074147F18F31D5800252716 /* menu@2x.png */,
 				5074147A18F30EEF00252716 /* rocket@2x.png */,
 				5074147818F30CCA00252716 /* wwdc@2x.png */,
@@ -289,6 +304,8 @@
 		50F78D7C18EF48EF00E44AE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5074148418F4849400252716 /* BDJResumeViewController.h */,
+				5074148518F4849400252716 /* BDJResumeViewController.m */,
 				5074146B18F08F6F00252716 /* BDJPebbleAppViewController.h */,
 				5074146C18F08F6F00252716 /* BDJPebbleAppViewController.m */,
 				5074145D18EF83B800252716 /* BDJProject1WebViewViewController.h */,
@@ -305,6 +322,8 @@
 				50F78D7918EF028300E44AE8 /* BDJMilestoneViewController.m */,
 				50F78D5818EF01CA00E44AE8 /* BDJViewController.h */,
 				50F78D5918EF01CA00E44AE8 /* BDJViewController.m */,
+				501BB98418F4AF2E00556567 /* BDJMenuViewController.h */,
+				501BB98518F4AF2E00556567 /* BDJMenuViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -420,8 +439,11 @@
 				5074145518EF7C0C00252716 /* orange@2x.png in Resources */,
 				50F78DA118EF6D5300E44AE8 /* iu-dark@2x.png in Resources */,
 				50F78DA318EF6E4500E44AE8 /* work@2x.png in Resources */,
+				5074148C18F48A8200252716 /* race@2x.png in Resources */,
+				5074148B18F48A8200252716 /* globe@2x.png in Resources */,
 				50F78D7F18EF496000E44AE8 /* start.png in Resources */,
 				50F78D8018EF496000E44AE8 /* start@2x.png in Resources */,
+				5074148A18F48A8200252716 /* bell@2x.png in Resources */,
 				50F78D8B18EF56AD00E44AE8 /* code@2x.png in Resources */,
 				50F78D5718EF01CA00E44AE8 /* Main.storyboard in Resources */,
 				50F78D9818EF649A00E44AE8 /* iu@2x.png in Resources */,
@@ -450,6 +472,7 @@
 			files = (
 				50F78D5018EF01CA00E44AE8 /* main.m in Sources */,
 				50F78D9018EF583200E44AE8 /* BDJGenericContentViewController.m in Sources */,
+				5074148618F4849400252716 /* BDJResumeViewController.m in Sources */,
 				50F78D8518EF50AD00E44AE8 /* BDJAboutMeViewController.m in Sources */,
 				5074145C18EF809400252716 /* BDJProjectViewController.m in Sources */,
 				50F78D5418EF01CA00E44AE8 /* BDJAppDelegate.m in Sources */,
@@ -457,6 +480,7 @@
 				50F78D7A18EF028300E44AE8 /* BDJMilestoneViewController.m in Sources */,
 				5074145F18EF83B800252716 /* BDJProject1WebViewViewController.m in Sources */,
 				50F78D5A18EF01CA00E44AE8 /* BDJViewController.m in Sources */,
+				501BB98618F4AF2E00556567 /* BDJMenuViewController.m in Sources */,
 				50F78D9F18EF677700E44AE8 /* BDJEducationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

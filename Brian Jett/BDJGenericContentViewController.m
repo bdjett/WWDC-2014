@@ -14,6 +14,29 @@
 
 @implementation BDJGenericContentViewController
 
+- (IBAction)showEmail:(id)sender {
+	
+	// email subject
+	NSString *emailTitle = @"";
+	
+	// email content
+	NSString *messageBody = @"";
+	
+	// to address
+	NSArray *toRecipients = @[@"bdjett@me.com"];
+	
+	MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
+	mc.mailComposeDelegate = self;
+	[mc setSubject:emailTitle];
+	[mc setMessageBody:messageBody isHTML:NO];
+	[mc setToRecipients:toRecipients];
+	mc.navigationBar.tintColor = [UIColor blackColor];
+	mc.navigationBar.translucent = NO;
+	
+	// present mail view controller on screen
+	[self presentViewController:mc animated:YES completion:nil];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -42,6 +65,31 @@
 	
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Mail Compose View Controller
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
+	
+	switch (result) {
+		case MFMailComposeResultCancelled:
+			NSLog(@"Mail cancelled");
+			break;
+		case MFMailComposeResultSaved:
+			NSLog(@"Mail saved");
+			break;
+		case MFMailComposeResultSent:
+			NSLog(@"Mail sent");
+			break;
+		case MFMailComposeResultFailed:
+			NSLog(@"Mail sent failure %@", [error localizedDescription]);
+			break;
+		default:
+			break;
+	}
+	
+	// close mail interface
+	[self dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*

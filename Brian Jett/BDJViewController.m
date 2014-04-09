@@ -12,12 +12,18 @@
 #import "BDJGenericContentViewController.h"
 #import "BDJEducationViewController.h"
 #import "BDJProjectViewController.h"
+#import "BDJMenuViewController.h"
 
 @interface BDJViewController ()
 
 @end
 
 @implementation BDJViewController
+
+- (IBAction)showMenu:(id)sender {
+	
+	[self performSegueWithIdentifier:@"showMenu" sender:self];
+}
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
 	return UIStatusBarStyleLightContent;
@@ -59,10 +65,11 @@
 	[self.pageViewController didMoveToParentViewController:self];
 	
 	// Button
-	//UIButton *menuButton = [[UIButton alloc] init];
-	//menuButton.frame = CGRectMake(20, 30, 20, 20);
-	//[menuButton setImage:[UIImage imageNamed:@"menu.png"] forState:UIControlStateNormal];
-	//[self.view addSubview:menuButton];
+	UIButton *menuButton = [[UIButton alloc] init];
+	menuButton.frame = CGRectMake(20, 30, 20, 20);
+	[menuButton setImage:[UIImage imageNamed:@"menu.png"] forState:UIControlStateNormal];
+	[menuButton addTarget:self action:@selector(showMenu:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:menuButton];
 	
 }
 

@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
-@interface BDJGenericContentViewController : UIViewController
+@interface BDJGenericContentViewController : UIViewController <MFMailComposeViewControllerDelegate>
 
 @property IBOutlet UIButton *emailButton;
 @property IBOutlet UIButton *resumeButton;
 @property NSUInteger pageIndex;
+
+- (IBAction)showEmail:(id)sender;
 
 @end

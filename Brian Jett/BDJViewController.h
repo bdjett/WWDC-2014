@@ -14,4 +14,7 @@
 @property (strong, nonatomic) NSArray *viewControllers;
 @property (strong, nonatomic) NSArray *viewControllers1;
 
+- (UIViewController *)viewControllerAtIndex:(NSUInteger)index;
+- (IBAction)showMenu:(id)sender;
+
 @end
