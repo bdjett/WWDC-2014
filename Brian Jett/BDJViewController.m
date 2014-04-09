@@ -45,7 +45,7 @@
 	[self setNeedsStatusBarAppearanceUpdate];
 	
 	// List of view controller IDs
-	self.viewControllers = @[@"Milestone1", @"AboutMe", @"Milestone2", @"WebDesign", @"WebDesign2", @"WebDesign3", @"Milestone3", @"Education", @"Milestone4", @"Professional1", @"Professional2", @"Milestone5", @"Project1", @"Project2", @"Project3", @"Project4", @"Project5", @"Milestone6", @"TechSkills", @"WWDC", @"Future", @"End"];
+	self.viewControllers = @[@"Milestone1", @"AboutMe", @"Milestone2", @"WebDesign", @"WebDesign2", @"WebDesign3", @"Milestone3", @"Education", @"Milestone4", @"Professional1", @"Professional2", @"Milestone5", @"Project1", @"Project2", @"Project3", @"Project4", @"Project5", @"Project6", @"Milestone6", @"TechSkills", @"WWDC", @"Future", @"End"];
 	
 	// Set up page view controller
 	self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
@@ -197,6 +197,11 @@
 		vc.projectUrl = @"buseta.png";
 		return vc;
 	} else if (index == 17) {
+		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project6"];
+		vc.pageIndex = index;
+		vc.projectUrl = @"buseta.png";
+		return vc;
+	} else if (index == 18) {
 		// eighteenth view controller
 		BDJMilestoneViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Milestone6"];
 		vc.pageIndex = index;
@@ -205,21 +210,21 @@
 		vc.titleText = @"Technical Skills";
 		vc.subtitleText = @"";
 		return vc;
-	} else if (index == 18) {
+	} else if (index == 19) {
 		// nineteenth view controller
 		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"TechSkills"];
 		vc.pageIndex = index;
 		return vc;
-	} else if (index == 19) {
+	} else if (index == 20) {
 		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"WWDC"];
 		vc.pageIndex = index;
 		return vc;
-	}else if (index == 20) {
+	}else if (index == 21) {
 		// twentieth view controller
 		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Future"];
 		vc.pageIndex = index;
 		return vc;
-	} else if (index == 21) {
+	} else if (index == 22) {
 		// tenty-first view controller
 		BDJGenericContentViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"End"];
 		vc.pageIndex = index;

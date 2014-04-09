@@ -270,7 +270,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="3SJ-0u-79j">
                                 <rect key="frame" x="20" y="260" width="280" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">I'm a 21 year-old software and web developer from Indianapolis, Indiana but currently located in Bloomington, Indiana. I am passionate about emerging technology, clean code, and beautiful deisgn. I love to combine these properties to create software and services people will love.</string>
+                                <string key="text">I'm a 21 year-old software and web developer from Indianapolis, Indiana but currently located in Bloomington, Indiana. I am passionate about emerging technology, clean code, and beautiful deisgn. I love to combine these to create software and services people will love.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -838,9 +838,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I created a clean and simple design for my freelance web design and development business that shows off my client work." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="PIF-UX-wCF">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="PIF-UX-wCF">
                                 <rect key="frame" x="20" y="253" width="280" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">I created a clean and simple design fo rmy freelance development business.  Using custom jQuery, I was able to make an interactive design that will draw in future clients.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1116,9 +1117,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="UOW-1N-U5K">
-                                <rect key="frame" x="20" y="253" width="280" height="148"/>
+                                <rect key="frame" x="20" y="270" width="280" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">I created an API service to get data from MyDisneyExperience to show upcoming FastPass+ and dinner reservations on the Pebble smartwatch.</string>
+                                <string key="text">I created an API in Python and django that scrapes data from My Disney Experience and a Pebble app to retrieve the data and display upcoming reservations and FastPass+ times all on the user's wrist.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1235,7 +1236,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="dKC-fV-lH1">
                                 <rect key="frame" x="20" y="253" width="280" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Using the DoubleMap API for my campus bus service, I created a Pebble smartwatch app to get the time of the next bus for the nearest stops.</string>
+                                <string key="text">Using the API for my campus bus service, I created a Pebble app to find the nearest stops to a user and display the arrival times of the next bus all without pulling your phone from your pocket.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1335,8 +1336,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="QpQ-bC-Dqn">
-                                <rect key="frame" x="20" y="122" width="280" height="346"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="262" translatesAutoresizingMaskIntoConstraints="NO" id="QpQ-bC-Dqn">
+                                <rect key="frame" x="29" y="180" width="262" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">I have experience in a variety of programming languages including, C, Objective-C, Java, Python, Scheme, Javascript, and PHP.  In addition to my knowledge of programming languages, I also have experience with HTML, CSS, SASS/LESS, jQuery, SQL, web frameworks such as django, and hardware SDKs including Pebble and iOS.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
@@ -1345,6 +1346,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="QpQ-bC-Dqn" secondAttribute="centerY" id="Jo9-z1-Ye3"/>
+                            <constraint firstAttribute="centerX" secondItem="QpQ-bC-Dqn" secondAttribute="centerX" id="Znf-MV-2u6"/>
+                        </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -1372,7 +1377,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Kcc-zn-in9">
                                 <rect key="frame" x="19" y="174" width="280" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Currently, I have several plans for the future. I am working on an iOS app for movie lovers to organize their large collection of movies and have several Pebble apps in the works as well.  My largest development project is a custom home automation system that will combine web development, iOS, and the Pebble.</string>
+                                <mutableString key="text">Currently, I have several plans for the future. I am working on an iOS app for movie lovers to organize their large collection of films, and I have several Pebble apps in the works as well.  My largest development project is a personal custom home automation system that will combine my web, iOS, and the Pebble development skills.</mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1499,10 +1504,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="273" translatesAutoresizingMaskIntoConstraints="NO" id="4BQ-fB-zGJ">
-                                <rect key="frame" x="24" y="180" width="273" height="208"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="273" translatesAutoresizingMaskIntoConstraints="NO" id="4BQ-fB-zGJ">
+                                <rect key="frame" x="24" y="202" width="273" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">A trip to WWDC would mean the world to me. It would be a chance to interact and learn from some of the greatest developers in the Apple Developer community.  Learning from these developers would be an invaluable experience in progressing my skills and in the future being able to pass these skills onto future developers.</string>
+                                <mutableString key="text">A trip to WWDC would mean the world to me. It would be a chance to interact and learn from some of the greatest developers in the Apple Developer community.  Learning from these developers would be an invaluable experience in progressing my skills and in the future being able to utilize these skills to create apps for users and pass these skills onto future developers.</mutableString>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1510,7 +1515,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4z2-iu-ve1" firstAttribute="top" secondItem="s2Z-zs-Qrm" secondAttribute="bottom" constant="-20" id="4Wg-Bh-o5q"/>
-                            <constraint firstItem="4BQ-fB-zGJ" firstAttribute="top" secondItem="s2Z-zs-Qrm" secondAttribute="bottom" constant="160" id="UFR-HZ-mSS"/>
+                            <constraint firstItem="4BQ-fB-zGJ" firstAttribute="top" secondItem="s2Z-zs-Qrm" secondAttribute="bottom" constant="182" id="UFR-HZ-mSS"/>
                             <constraint firstAttribute="centerX" secondItem="4z2-iu-ve1" secondAttribute="centerX" id="aL5-tG-Zt0"/>
                             <constraint firstAttribute="centerX" secondItem="4BQ-fB-zGJ" secondAttribute="centerX" id="e55-UV-RZv"/>
                         </constraints>
@@ -1618,6 +1623,71 @@
             </objects>
             <point key="canvasLocation" x="-300" y="-452"/>
         </scene>
+        <!--Project View Controller-->
+        <scene sceneID="FCP-Kw-DNn">
+            <objects>
+                <viewController storyboardIdentifier="Project6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jQU-KL-CPE" customClass="BDJProjectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iB1-d3-vgE"/>
+                        <viewControllerLayoutGuide type="bottom" id="H33-6Y-ap7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GvR-is-gun">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purple.png" translatesAutoresizingMaskIntoConstraints="NO" id="56v-yV-S3e">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buseta-circle.png" translatesAutoresizingMaskIntoConstraints="NO" id="b5d-9B-jNR">
+                                <rect key="frame" x="103" y="81" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UptimeRobot for Pebble" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="zHg-Dy-k97">
+                                <rect key="frame" x="20" y="204" width="280" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Omo-Za-z1p">
+                                <rect key="frame" x="20" y="253" width="280" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Using the UptimeRobot API, I created a Pebble app that allows you to view the status of your servers, their uptime percentage and receive notifications when the server goes down.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jg2-qO-ESh">
+                                <rect key="frame" x="20" y="512" width="280" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="H0B-zx-O7s"/>
+                                    <constraint firstAttribute="width" constant="280" id="fen-RR-d1y"/>
+                                </constraints>
+                                <state key="normal" title="See Project">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qiF-Kh-Lgg" kind="modal" id="F1L-Bs-pJ4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="jg2-qO-ESh" secondAttribute="centerX" id="02s-QE-pPb"/>
+                            <constraint firstItem="H33-6Y-ap7" firstAttribute="top" secondItem="jg2-qO-ESh" secondAttribute="bottom" constant="20" id="XAn-AJ-RwD"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="seeProjectButton" destination="jg2-qO-ESh" id="Pdh-5L-rqF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YDi-fx-XKx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812" y="1662"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bell.png" width="115" height="115"/>
@@ -1657,7 +1727,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="wh6-Xn-euz"/>
-        <segue reference="HlO-yr-vKC"/>
+        <segue reference="F1L-Bs-pJ4"/>
+        <segue reference="YWF-vw-qxz"/>
     </inferredMetricsTieBreakers>
 </document>

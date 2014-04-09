@@ -99,8 +99,8 @@
 	
 	BDJViewController *parent = (BDJViewController *)self.presentingViewController;
 	
-	UIViewController *previous = [parent viewControllerAtIndex:16];
-	UIViewController *vc = [parent viewControllerAtIndex:17];
+	UIViewController *previous = [parent viewControllerAtIndex:17];
+	UIViewController *vc = [parent viewControllerAtIndex:18];
 	
 	__weak typeof(parent) weakParent = parent;
 	
@@ -115,8 +115,8 @@
 	
 	BDJViewController *parent = (BDJViewController *)self.presentingViewController;
 	
-	UIViewController *previous = [parent viewControllerAtIndex:19];
-	UIViewController *vc = [parent viewControllerAtIndex:20];
+	UIViewController *previous = [parent viewControllerAtIndex:20];
+	UIViewController *vc = [parent viewControllerAtIndex:21];
 	
 	__weak typeof(parent) weakParent = parent;
 	
