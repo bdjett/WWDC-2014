@@ -172,6 +172,8 @@
 
 - (void)viewDidAppear:(BOOL)animated {
 	
+	[super viewDidAppear:animated];
+	
 	self.scrollView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
 	self.scrollView.contentSize = CGSizeMake(320, 490);
 	self.scrollView.delegate = self;

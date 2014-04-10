@@ -42,6 +42,13 @@
 	self.webView.scrollView.zoomScale = 1.0;
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+	
+	[super viewDidAppear:animated];
+	
+	self.webView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+}
+
 - (void)didReceiveMemoryWarning {
 	
     [super didReceiveMemoryWarning];
