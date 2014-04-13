@@ -10,9 +10,11 @@
 
 @interface BDJProject1WebViewViewController : UIViewController
 
+@property IBOutlet UIBarButtonItem *openInSafariButton;
 @property IBOutlet UIWebView *webView;
 @property NSString *fullUrl;
 
+- (IBAction)openInSafari:(id)sender;
 - (IBAction)close:(id)sender;
 
 @end

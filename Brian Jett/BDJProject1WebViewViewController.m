@@ -14,6 +14,12 @@
 
 @implementation BDJProject1WebViewViewController
 
+- (IBAction)openInSafari:(id)sender {
+	
+	NSURL *url = [NSURL URLWithString:self.fullUrl];
+	[[UIApplication sharedApplication] openURL:url];
+}
+
 - (IBAction)close:(id)sender {
 	
 	[self dismissViewControllerAnimated:YES completion:nil];

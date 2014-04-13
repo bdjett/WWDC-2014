@@ -92,7 +92,7 @@
                                         <rect key="frame" x="20" y="365" width="40" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Projects" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixI-AI-BAL">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Work" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixI-AI-BAL">
                                         <rect key="frame" x="68" y="303" width="220" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
@@ -902,19 +902,23 @@
                                 <action selector="goBack" destination="Lj2-Pz-k1S" id="7g0-gs-BH2"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="N3w-Eo-dWt"/>
                         <barButtonItem systemItem="fastForward" id="jbf-fx-2mW">
                             <connections>
                                 <action selector="goForward" destination="Lj2-Pz-k1S" id="sFU-JH-ekD"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="64g-SK-a2H"/>
+                        <barButtonItem systemItem="action" id="7Uj-Ol-wbY">
+                            <connections>
+                                <action selector="openInSafari:" destination="EC1-kp-ytz" id="YiE-Fx-aOR"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="PXc-hQ-kOp"/>
                         <barButtonItem systemItem="stop" id="YcT-OU-ejg">
                             <connections>
                                 <action selector="stopLoading" destination="Lj2-Pz-k1S" id="zQE-lX-wbT"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="drK-kl-iWA"/>
                         <barButtonItem systemItem="refresh" id="RoT-0m-zNc">
                             <connections>
                                 <action selector="reload" destination="Lj2-Pz-k1S" id="svs-dy-Qoc"/>
@@ -929,6 +933,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="openInSafariButton" destination="7Uj-Ol-wbY" id="9yo-OD-tIa"/>
                         <outlet property="webView" destination="Lj2-Pz-k1S" id="y8O-QA-uAi"/>
                     </connections>
                 </viewController>
@@ -1377,7 +1382,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Kcc-zn-in9">
                                 <rect key="frame" x="19" y="174" width="280" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Currently, I have several plans for the future. I am working on an iOS app for movie lovers to organize their large collection of films, and I have several Pebble apps in the works as well.  My largest development project is a personal custom home automation system that will combine my web, iOS, and the Pebble development skills.</mutableString>
+                                <string key="text">Currently, I have several plans for the future. I am working on an iOS app for movie lovers to organize their large collection of films, and I have several Pebble apps in the works as well.  My largest development project is a personal custom home automation system that will combine my web, iOS, and the Pebble development skills.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1507,7 +1512,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="273" translatesAutoresizingMaskIntoConstraints="NO" id="4BQ-fB-zGJ">
                                 <rect key="frame" x="24" y="202" width="273" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">A trip to WWDC would mean the world to me. It would be a chance to interact and learn from some of the greatest developers in the Apple Developer community.  Learning from these developers would be an invaluable experience in progressing my skills and in the future being able to utilize these skills to create apps for users and pass these skills onto future developers.</mutableString>
+                                <string key="text">A trip to WWDC would mean the world to me. It would be a chance to interact and learn from some of the greatest developers in the Apple Developer community.  Learning from these developers would be an invaluable experience in progressing my skills and in the future being able to utilize these skills to create apps for users and pass these skills onto future developers.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1639,7 +1644,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buseta-circle.png" translatesAutoresizingMaskIntoConstraints="NO" id="b5d-9B-jNR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uptimerobot.png" translatesAutoresizingMaskIntoConstraints="NO" id="b5d-9B-jNR">
                                 <rect key="frame" x="103" y="81" width="115" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1718,6 +1723,7 @@
         <image name="timeline-first.png" width="320" height="568"/>
         <image name="timeline-middle.png" width="320" height="568"/>
         <image name="timeline-start-green.png" width="320" height="568"/>
+        <image name="uptimerobot.png" width="115" height="115"/>
         <image name="work.png" width="115" height="115"/>
         <image name="wwdc.png" width="320" height="568"/>
     </resources>

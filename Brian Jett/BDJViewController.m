@@ -199,7 +199,7 @@
 	} else if (index == 17) {
 		BDJProjectViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Project6"];
 		vc.pageIndex = index;
-		vc.projectUrl = @"buseta.png";
+		vc.projectUrl = @"uptimerobot-app.png";
 		return vc;
 	} else if (index == 18) {
 		// eighteenth view controller

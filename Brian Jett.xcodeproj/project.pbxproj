@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		501BB98618F4AF2E00556567 /* BDJMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501BB98518F4AF2E00556567 /* BDJMenuViewController.m */; };
+		50263E7E18F8398500114D9D /* uptimerobot-app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50263E7C18F8398500114D9D /* uptimerobot-app@2x.png */; };
+		50263E7F18F8398500114D9D /* uptimerobot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50263E7D18F8398500114D9D /* uptimerobot@2x.png */; };
 		5074145518EF7C0C00252716 /* orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145218EF7C0C00252716 /* orange@2x.png */; };
 		5074145618EF7C0C00252716 /* purple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145318EF7C0C00252716 /* purple@2x.png */; };
 		5074145718EF7C0C00252716 /* red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5074145418EF7C0C00252716 /* red@2x.png */; };
@@ -83,6 +85,8 @@
 /* Begin PBXFileReference section */
 		501BB98418F4AF2E00556567 /* BDJMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJMenuViewController.h; sourceTree = "<group>"; };
 		501BB98518F4AF2E00556567 /* BDJMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJMenuViewController.m; sourceTree = "<group>"; };
+		50263E7C18F8398500114D9D /* uptimerobot-app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uptimerobot-app@2x.png"; sourceTree = "<group>"; };
+		50263E7D18F8398500114D9D /* uptimerobot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uptimerobot@2x.png"; sourceTree = "<group>"; };
 		5074145218EF7C0C00252716 /* orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange@2x.png"; sourceTree = "<group>"; };
 		5074145318EF7C0C00252716 /* purple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple@2x.png"; sourceTree = "<group>"; };
 		5074145418EF7C0C00252716 /* red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red@2x.png"; sourceTree = "<group>"; };
@@ -260,6 +264,8 @@
 		50F78D7B18EF48E500E44AE8 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				50263E7C18F8398500114D9D /* uptimerobot-app@2x.png */,
+				50263E7D18F8398500114D9D /* uptimerobot@2x.png */,
 				5074148718F48A8200252716 /* bell@2x.png */,
 				5074148818F48A8200252716 /* globe@2x.png */,
 				5074148918F48A8200252716 /* race@2x.png */,
@@ -416,6 +422,7 @@
 				50F78D8718EF50C000E44AE8 /* me@2x.png in Resources */,
 				50F78D9418EF5C6700E44AE8 /* timeline-end@2x.png in Resources */,
 				5074146818F08B2900252716 /* logicalpixels-bg@2x.png in Resources */,
+				50263E7E18F8398500114D9D /* uptimerobot-app@2x.png in Resources */,
 				50F78D8D18EF57B200E44AE8 /* blue@2x.png in Resources */,
 				50F78D9A18EF650000E44AE8 /* education@2x.png in Resources */,
 				5074146A18F08F4B00252716 /* mdeapp@2x.png in Resources */,
@@ -432,6 +439,7 @@
 				50F78DA918EF6FC100E44AE8 /* timeline-start-green@2x.png in Resources */,
 				5074147918F30CCA00252716 /* wwdc@2x.png in Resources */,
 				5074145718EF7C0C00252716 /* red@2x.png in Resources */,
+				50263E7F18F8398500114D9D /* uptimerobot@2x.png in Resources */,
 				5074145918EF801300252716 /* logicalpixels@2x.png in Resources */,
 				50F78DAB18EF737300E44AE8 /* star@2x.png in Resources */,
 				50F78D9518EF5C6700E44AE8 /* timeline-first@2x.png in Resources */,
