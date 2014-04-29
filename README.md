@@ -1,6 +1,6 @@
 #2014 WWDC Scholarship Entry
 
-This is my entry for the 2014 WWDC Scholarship
+This is my entry for the 2014 WWDC Scholarship, and it won me a trip to San Francisco for WWDC 2014!
 
 ##Screenshots
 
